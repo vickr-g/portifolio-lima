@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +16,14 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/back.css">
+
+
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -33,12 +41,15 @@
                     <a href="#projetos">Projetos</a>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#contato">Contatos</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main> 
+    <main>
+        <a href="#home" class="back" title="Inicio">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
             <img src="./img/Ellipse.png" alt="foto" class="home__photo">
             <div>
@@ -51,46 +62,147 @@
             <h2 class="section-title">Sobre Mim</h2>
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
-                <p class="description__text">Sou iniciante na área de criação e
-                    manuntenção de sites, tenho conhecimentos em prototipação e designer sempre pensando na experiência do usuário.
-                    Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+                <p class="description__text">Sou iniciante na área de criação e manuntenção de sites, tenho conhecimentos em prototipação e designer sempre pensando na experiência do usuário. Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus
+                    colegas de trabalho e no mundo que me rodeia.</p>
             </div>
             <div class="skills">
                 <h3 class="skills_title">Skills</h3>
                 <div class="skills__icons">
-                    
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
-                <div class="skills__icon">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                </div>
+
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
 
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
-        
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="#" class="card">
+                    <img src="./img/pikachu.png" alt="imagem pikachu">
+                </a>
+
+                <a href="https://github.com/vickr-g/site-2-nike" target="_blank" class="card">
+                    <img src="./img/airmax.png" alt="imagem pikachu">
+                </a>
+
+                <a href="#" class="card">
+                    <img src="./img/pikachu.png" alt="imagem pikachu">
+                </a>
+
+                <a href="https://github.com/vickr-g/site-2-nike" target="_blank" class="card">
+                    <img src="./img/airmax.png" alt="imagem pikachu">
+                </a>
+
+                <a href="#" class="card">
+                    <img src="./img/pikachu.png" alt="imagem pikachu">
+                </a>
+
+                <a href="https://github.com/vickr-g/site-2-nike" target="_blank" class="card">
+                    <img src="./img/airmax.png" alt="imagem pikachu">
+                </a>
+
+
+            </div>
+
+        </section>
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contatos</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(11) 4141-5823</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>vgindre45@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(11) 97418-7088</span>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="https://www.instagram.com/vickr.g/?next=https%3A%2F%2Fabout.instagram.com%2Fpt-br%2Ffeatures%2Fsearch-and-explore" target="_blank" class="social-item"><i class="fab fa-instagram"></i></a>
+
+                </li>
+                <li>
+                    <a href="https://twitter.com/avickyzz" target="_blank" class="social-item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://github.com/vickr-g" target="_blank" class="social-item"><i class="fab fa-github"  ></i></a>
+
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/victoria-rosa-gindre-b2678924a/" target="_blank" class="social-item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre-mim">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+
+                    <li>
+                        <a href="#contatos">Contato</a>
+                    </li>
+
+                </li>
+
+
+            </ul>
+        </section>
+
     </main>
-    <footer></footer>
+    <footer>Todos os direitos reservados 2022 | Desenvolvido por Victoria Gindre</footer>
 </body>
+
 </html>

@@ -1,12 +1,13 @@
-:root{
+    :root {
     --primary-color: #FEDC00;
     --icon-color: #252525;
-
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     display: grid;
     grid-template-areas: "content";
     font-family: 'Ubuntu', sans-serif;
@@ -14,7 +15,7 @@ body{
     background-color: black;
 }
 
-header{
+header {
     place-self: start center;
     grid-area: content;
     max-width: 1200px;
@@ -25,34 +26,45 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-main{
+
+main {
     grid-area: content;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section{
+section {
     height: 100vh;
+}
 
- }
- 
+.projetos {
+    background-color: black;
+    width: 100%;
+}
 
- .projetos{
-     background-color: royalblue;
-     width: 100%;
- }
+.contato {
+    background-color: black;
+    width: 100%;
+}
 
- .contato{
-     background-color: bisque;
-     width: 100%;
- }
+footer {
+    place-self: end center;
+    grid-area: content;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
+}
 
- footer{
-     place-self: end center;
-     grid-area: content;
-     height: 100px;
-     width: 100%;
-     background-color: #0008;
 
- }
+/*TABLET*/
+
+@media(max-width:960px) {
+     :root {
+        --space-default: 30px;
+    }
+    /*MOBLIE*/
+    @media(max-width:640px) {}
