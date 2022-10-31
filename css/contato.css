@@ -56,3 +56,66 @@
 .link-title {
     font-size: 1.5rem;
 }
+
+
+/* TABLET */
+
+@media (max-width: 960px) {
+    .contato {
+        max-width: 868px;
+        width: 100%;
+        height: 750px;
+        grid-template-areas: "title title title" "contato . link" "social social social";
+        grid-template-rows: 100px 400px 100px;
+    }
+    .contato-container {
+        grid-area: contato;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .link-container {
+        grid-area: link;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        text-align: right;
+    }
+    .social-container {
+        justify-content: center;
+        place-self: start center;
+        font-size: 2rem;
+    }
+    .social-item {
+        width: 76px;
+        height: 76px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .contato {
+        max-width: 592px;
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .contato-title {
+        display: none;
+    }
+    .contato-item {
+        justify-content: center;
+    }
+    .link-container {
+        align-items: center;
+    }
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        place-self: center;
+    }
+}

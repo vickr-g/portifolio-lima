@@ -1,12 +1,39 @@
-.menu{
-    display: flex;
-    gap: 72px;
-    font: 1.25rem;
-}
-.menu li{
-    border-bottom: 4px solid transparent;
-    transition: border-color 1s;
-}
-.menu li:hover{
-    border-color: var(--primary-color);
-}
+        .menu {
+            display: flex;
+            gap: 72px;
+            font: 1.25rem;
+        }
+        
+        .menu li {
+            border-bottom: 4px solid transparent;
+            transition: border-color 1s;
+        }
+        
+        .menu li:hover {
+            border-color: var(--primary-color);
+        }
+        /* TABLET */
+        
+        @media (max-width:960px) {
+            header {
+                max-width: 868px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .menu {
+                display: none;
+            }
+            .menu__bars {
+                display: flex;
+                font-size: 30px;
+                justify-content: center;
+            }
+            /* MOBILE */
+            @media (max-width:640px) {
+                header {
+                    max-width: 592px;
+                    width: 100%;
+                }
+            }
+        }

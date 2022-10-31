@@ -17,3 +17,17 @@
 .back:hover {
     opacity: 1;
 }
+
+
+/* TABLET */
+
+@media (max-width:960px) {
+    .back {
+        display: none;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {}

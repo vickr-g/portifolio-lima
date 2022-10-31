@@ -60,3 +60,36 @@
 .skills__icon span {
     font-size: 1rem;
 }
+
+
+/* TABLET */
+
+@media (max-width:960px) {
+    .sobre-mim {
+        max-width: 868px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .skills__icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 92px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .sobre-mim {
+        max-width: 592px;
+        width: 100%;
+    }
+    .skills__icons {
+        display: flex;
+        justify-content: center;
+    }
+}

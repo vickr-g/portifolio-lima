@@ -19,3 +19,48 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+
+/* TABLET */
+
+@media (max-width:960px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .home__text {
+        display: flex;
+        justify-content: center;
+    }
+    .home__name {
+        font-size: 4rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width:640px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__text {
+        display: flex;
+        justify-content: center;
+    }
+    .home__name {
+        font-size: 4rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+}
