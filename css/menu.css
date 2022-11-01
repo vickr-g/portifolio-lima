@@ -4,6 +4,10 @@
             font: 1.25rem;
         }
         
+        .menu__bars {
+            display: none;
+        }
+        
         .menu li {
             border-bottom: 4px solid transparent;
             transition: border-color 1s;
