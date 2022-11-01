@@ -1,80 +1,81 @@
-   :root {
-      --primary-color: #FEDC00;
-      --icon-color: #252525;
-  }
-  
-  html {
-      scroll-behavior: smooth;
-  }
-  
-  body {
-      display: grid;
-      grid-template-areas: "content";
-      font-family: 'Ubuntu', sans-serif;
-      color: #fff;
-      background-color: black;
-  }
-  
-  header {
-      place-self: start center;
-      grid-area: content;
-      max-width: 1200px;
-      width: 100%;
-      margin-top: 48px;
-      z-index: 1;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
-  main {
-      grid-area: content;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  
-  section {
-      height: 100vh;
-  }
-  
-  .projetos {
-      background-color: black;
-      width: 100%;
-  }
-  
-  .contato {
-      background-color: black;
-      width: 100%;
-  }
-  
-  footer {
-      place-self: end center;
-      grid-area: content;
-      height: 50px;
-      width: 100%;
-      display: grid;
-      place-content: center;
-      font-size: .75rem;
-      border-top: 2px solid #fff;
-  }
-  /*TABLET*/
-  
-  @media(max-width:960px) {
-      .sobre-mim {
-          height: 1300px;
-      }
-      .projetos {
-          height: 3100px;
-      }
-  }
-  /* MOBILE */
-  
-  @media (max-width:640px) {
-      .sobre-mim {
-          height: 160vh;
-      }
-      .projetos {
-          height: 300vh;
-      }
-  }
+      :root {
+         --primary-color: #FEDC00;
+         --icon-color: #252525;
+     }
+     
+     html {
+         scroll-behavior: smooth;
+     }
+     
+     body {
+         display: grid;
+         grid-template-areas: "content";
+         font-family: 'Ubuntu', sans-serif;
+         color: #fff;
+         background-color: black;
+     }
+     
+     header {
+         place-self: start center;
+         grid-area: content;
+         max-width: 1200px;
+         width: 100%;
+         margin-top: 48px;
+         z-index: 1;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     
+     main {
+         grid-area: content;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     
+     section {
+         height: 100vh;
+     }
+     
+     .projetos {
+         background-color: black;
+         width: 100%;
+     }
+     
+     .contato {
+         background-color: black;
+         width: 100%;
+     }
+     
+     footer {
+         place-self: end center;
+         grid-area: content;
+         height: 50px;
+         width: 100%;
+         display: grid;
+         place-content: center;
+         font-size: .75rem;
+         border-top: 2px solid #fff;
+     }
+     /*TABLET*/
+     
+     @media(max-width:960px) {
+         .sobre-mim {
+             height: 1300px;
+         }
+         .projetos {
+             height: 3100px;
+         }
+     }
+     /* MOBILE */
+     
+     @media (max-width:640px) {
+         .sobre-mim {
+             height: 160vh;
+         }
+         .projetos {
+             height: 300vh;
+         }
+         header {}
+     }
